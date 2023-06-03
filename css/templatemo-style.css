@@ -256,6 +256,7 @@ ul.sobre-bd li h3 {
   letter-spacing: 1px;
 }
 
+
 /* popularidade section */
 #popularidade {
   text-align: center;
@@ -269,6 +270,7 @@ ul.sobre-bd li h3 {
   background: #fff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
   position: relative;
+  margin-bottom: 10vh;
 }
 #popularidade .col-md-6,
 #popularidade .col-md-12 {
@@ -297,6 +299,96 @@ ul.sobre-bd li h3 {
   height:70vh;
   width:100%;
 }
+
+
+/* idade section */
+#idade {
+  text-align: center;
+  width: 100%;
+}
+#idade h2,
+#idade h3 {
+  padding-bottom: 10px;
+}
+#idade .idade-des {
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  position: relative;
+  margin-bottom: 10vh;
+}
+#idade .col-md-6,
+#idade .col-md-12 {
+  padding: 40px;
+}
+#idade .fa {
+  border: 2px solid #6717cd;
+  border-radius: 50%;
+  color: #6717cd;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+#idade .border-right {
+  border-right: 2px solid #f9f9f9;
+}
+#idade .border-bottom {
+  border-bottom: 2px solid #f9f9f9;
+}
+#idade #subplots {
+  overflow: hidden;
+  height: 1200px;
+  width: 100%;
+  padding-left: 2vw;
+}
+
+
+/* transtornos section */
+#transtornos {
+  text-align: center;
+  width: 100%;
+}
+#transtornos h2,
+#transtornos h3 {
+  padding-bottom: 10px;
+}
+#transtornos .transtornos-des {
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  position: relative;
+  margin-bottom: 10vh;
+}
+#transtornos .col-md-6,
+#transtornos .col-md-12 {
+  padding: 40px;
+}
+#transtornos .fa {
+  border: 2px solid #6717cd;
+  border-radius: 50%;
+  color: #6717cd;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+#transtornos .border-right {
+  border-right: 2px solid #f9f9f9;
+}
+#transtornos .border-bottom {
+  border-bottom: 2px solid #f9f9f9;
+}
+#transtornos #bars {
+  overflow:hidden;
+  height:525px;
+  width:100%;
+}
+
 
 /* contact section */
 #contact {
