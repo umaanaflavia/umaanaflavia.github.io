@@ -340,7 +340,7 @@ ul.sobre-bd li h3 {
 }
 #idade #subplots {
   overflow: hidden;
-  height: 1200px;
+  height: 131vh;
   width: 100%;
   padding-left: 2vw;
 }
@@ -385,7 +385,7 @@ ul.sobre-bd li h3 {
 }
 #transtornos #bars {
   overflow:hidden;
-  height:525px;
+  height:70vh;
   width:100%;
 }
 
@@ -429,7 +429,52 @@ ul.sobre-bd li h3 {
 }
 #radar #radar {
   overflow: hidden;
-  height: 1200px;
+  height: 144vh;
+  width: 100%;
+  padding-left: 2vw;
+}
+
+
+/* violin section */
+#violin {
+  text-align: center;
+  width: 100%;
+}
+#violin h2,
+#violin h3 {
+  padding-bottom: 10px;
+}
+#violin .violin-des {
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  position: relative;
+  margin-bottom: 10vh;
+}
+#violin .col-md-6,
+#violin .col-md-12 {
+  padding: 40px;
+}
+#violin .fa {
+  border: 2px solid #6717cd;
+  border-radius: 50%;
+  color: #6717cd;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+#violin .border-right {
+  border-right: 2px solid #f9f9f9;
+}
+#violin .border-bottom {
+  border-bottom: 2px solid #f9f9f9;
+}
+#violin #violin {
+  overflow: hidden;
+  height: 99vh;
   width: 100%;
   padding-left: 2vw;
 }
