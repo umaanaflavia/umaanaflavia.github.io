@@ -32,28 +32,6 @@
      </div>
 </div> -->
 
-<!-- navigation -->
-<!-- <div class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#" class="navbar-brand"><strong>Coming Soon</strong></a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right main-navigation">
-				<li><a href="#home" class="smoothScroll">HOME</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT US</a></li>
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
-		</div>
-	</div>
-</div> -->
-
 <!-- home section -->
 <div id="home">
 	<div class="container">
@@ -101,7 +79,8 @@
 			<div class="col-md-12 col-sm-12 popularidade-des">
 				<div class="col-md-12 col-sm-12 popularidade-title">
 					<h2 class="wow bounceIn">EXPLORANDO A POPULARIDADE DOS GÊNEROS MUSICAIS</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Thank you for visiting our website.</p>
+					<p>Essa visualização tem como objetivo exibir e comparar a popularidade de cada gênero musical. Escolhemos um mapa de calor pois ele permite realizar uma comparação fácil e direta entre gêneros diferentes, possibilitando que o usuário perceba as diferenças instantâneamente. Além disso, para facilitar a comparação é possível que o usuário exiba os valores numéricos da quantidade de pessoas em cima dos quadrados para facilitar ainda mais a compreensão.</p>
+					<p>Foi possível perceber que rock e pop são de longe os gêneros mais ouvidos, enquanto gospel e músicas latinas são bem menos comuns. Temos também alguns gêneros como metal e k-pop, que embora não estejam entre os gêneros menos ouvidos possuem um número significante de pessoas que nunca o ouvem, além de gêneros como música clássica, que embora não tenha um número grande de pessoas que o ouvem com frequência, poucas pessoas afirmam nunca consumir.</p>
 				</div>
 				<iframe src="heatmap.html" frameborder="0" id="heatmap"></iframe>
 			</div>
@@ -116,7 +95,8 @@
 			<div class="col-md-12 col-sm-12 idade-des">
 				<div class="col-md-12 col-sm-12 idade-title">
 					<h2 class="wow bounceIn">EXPLORANDO A DISTRIBUIÇÃO DE IDADES PELO GÊNEROS FAVORITOS</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Thank you for visiting our website.</p>
+					<p>Nesse gráfico buscamos explorar a idade das pessoas que escolheram cada gênero como seu favorito. Para isso foi utilizado o formato de pequenos múltiplos com histogramas, pois um histograma é o formato ideal para visualizar essa distribuição, mas como queríamos fazer isso para um total de 16 gêneros músicais um histograma só ficaria muito poluído. Além disso, devido à grande variação de quantidade de pessoas em cada gênero musical, foi utilizada uma escala logarítmica, para que todos os gráficos usassem a mesma escala sem perder a visibilidade das barras.</p>
+					<p>Com isso percebemos que a base de dados em geral consiste de pessoas mais novas, com a maioria tendo entre 15 e 30 anos. Apesar disso, ainda existem gêneros como música clássica, R&B e gospel que possuem uma quantidade maior que os demais de pessoas mais velhas.</p>
 					<iframe src="subplots.html" frameborder="0" id="subplots"></iframe>
 				</div>
 			</div>
@@ -131,7 +111,8 @@
 			<div class="col-md-12 col-sm-12 transtornos-des">
 				<div class="col-md-12 col-sm-12 transtornos-title">
 					<h2 class="wow bounceIn">EXPLORANDO TRANSTORNOS MENTAIS POR GÊNERO FAVORITO</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Thank you for visiting our website.</p>
+					<p>Essa visualização buscou identificar uma possível diferença na média de transtornos mentais dependendo do gênero musical favorito das pessoas. Foi utilizado um gráfico de barras para tal fim, uma vez que ele permite identificar as diferenças com maior precisão. Por estarmos tratando de médias, foi realizada uma filtragem nos dados para remover os gêneros musicais que foram escolhidos como favoritos por menos de 10 pessoas, o que removeu os gêneros gospel, latino e lo-fi.</p>
+					<p>É possível perceber então que alguns gêneros como música clássica estão abaixo do nível médio para todos os transtornos mentais, enquanto outros como rock então acima da média para todos eles, ainda que por uma pequena diferença. Além disso temos gêneros como folk, que possuem o maior nível de ansiedade médio, mas o menor nível de TOC. Temos também o rap, que está abaixo da média em todos os transtornos mentais, exceto pelo TOC, onde não só ele é um dos únicos gêneros cuja média de TOC não é a menor dos quatro transtornos, mas ele é de longe o com maior nível de TOC.</p>
 					<iframe src="bars.html" frameborder="0" id="bars"></iframe>
 				</div>
 			</div>
@@ -146,7 +127,8 @@
 			<div class="col-md-12 col-sm-12 radar-des">
 				<div class="col-md-12 col-sm-12 radar-title">
 					<h2 class="wow bounceIn">EXPLORANDO TRANSTORNOS MENTAIS PELA FREQUÊNCIA DE OUVINTES DE CADA GÊNERO</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Thank you for visiting our website.</p>
+					<p>Devido à grande variação no número de pessoas por gênero favorito, buscamos então explorar a variação dos transtornos mentais pela frequência de consumo de cada gênero. Como nesse caso teríamos um número maior de variáveis (16 gêneros, 4 transtornos e 4 frequências), foi mais difícil encontrar um formato bom para exibir esses dados. A princípio foi utilizada uma combinação entre pequenos múltiplos e radar, distribuidos em três colunas para <a id="openModalLink" href="#">evitar problemas na visualização dos gráficos</a>. Esse formato serviu muito bem para obter uma visão geral da diferença entre os gêneros, mas não tão bem para comparações diretas entre eles.</p>
+					<p>Com esse formato, foi possível perceber claramente que a maioria das variações ocorre com as frequências mais extremas (Never e Very frequently), enquanto muito raramente as frequências mais medianas se destoam das demais. É interessante perceber que em nenhum caso as pessoas que afirmam nunca ouvir determinado gênero foram as que tiveram maior nível de algum transtorno, tendo diversos casos que esse grupo foi o com menor nível. Além disso, música gospel foi o único gênero em que as pessoas que afirmaram ouvir com muita frequência tiveram um nível de depressão menor que as demais.</p>
 					<iframe src="radar.html" frameborder="0" id="radar"></iframe>
 				</div>
 			</div>
@@ -160,8 +142,9 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 violin-des">
 				<div class="col-md-12 col-sm-12 violin-title">
-					<h2 class="wow bounceIn">EXPLORANDO TRANSTORNOS MENTAIS PELA FREQUÊNCIA DE OUVINTES DE CADA GÊNERO</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Thank you for visiting our website.</p>
+					<h2 class="wow bounceIn">EXPLORANDO TRANSTORNOS MENTAIS PELA FREQUÊNCIA DE OUVINTES DE CADA GÊNERO (2.0)</h2>
+					<p>Ainda buscando explorar a variação dos transtornos mentais pela frequência de consumo de cada gênero, foi feita uma nova tentativa de visualizar esses dados, dessa vez utilizando gráfico de violino. Isso porque o gráfico anterior foi insuficiente para realizar uma comparação direta e fácil entre dois gêneros quaisquer por exemplo. Essa versão apresentou o problema inverso do gráfico anterior. Dessa vez a visualização individual ou comparação de um número pequeno de gêneros foi facilitada, mas não é possível ter uma visão geral tão facilmente.</p>
+					<p>Assim, podemos comparar gêneros como gospel e metal e perceber, por exemplo, que ambos possuem um valor médio de ansiedade extremamente próximo entre aqueles que ouvem cada respectivo gênero com muita frequência, mas aqueles que ouvem metal com muita frequência possuem depressão mais alta que aqueles que ouvem música gospel com a mesma frequência. Esse formato também possibilita ver existem gêneros como lo-fi onde o nível médio de cada transtorno mental não varia muito com a frequência com que as pessoas ouvem o gênero, mas a mediana de cada transtorno é extremamente diferente dependendo da frequência.</p>
 					<iframe src="violin.html" frameborder="0" id="violin"></iframe>
 				</div>
 			</div>
@@ -169,54 +152,37 @@
 	</div>
 </div>
 
-<!-- contact section -->
-<div id="contact">
+<!-- details section -->
+<div id="details">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-1 col-sm-1"></div>
 			<div class="col-md-4 col-sm-4">
-				<h2 class="wow bounceIn">OUR OFFICE</h2>
-				<p><i class="fa fa-phone"></i> Tel: 010-020-0340 | 090-080-0760</p>
-				<p><i class="fa fa-globe"></i> URL: www.company.com</p>
-				<p><i class="fa fa-envelope-o"></i> Email: info@company.com</p>
+				<h2 class="wow bounceIn">NOSSO GRUPO</h2>
+				<p><i class="fa fa-female"></i> Ana Flávia de Matos Souza</p>
+				<p><i class="fa fa-male"></i> João Vitor Mateus Silva</p>
+				<p><i class="fa fa-female"></i> Taís Christofani</p>
 			</div>
-			<div class="col-md-4 col-sm-4">
-				<h2 class="wow bounceIn">SOCIAL MEDIA</h2>
-				<ul class="social-icons">
-					<li class="wow fadeIn" data-wow-delay="0.4s"><a href="#" class="fa fa-facebook"></a></li>
-					<li class="wow fadeIn" data-wow-delay="0.8s"><a href="#" class="fa fa-twitter"></a></li>
-					<li class="wow fadeIn" data-wow-delay="1.2s"><a href="#" class="fa fa-dribbble"></a></li>
-					<li class="wow fadeIn" data-wow-delay="1.6s"><a href="#" class="fa fa-pinterest"></a></li>
-					<li class="wow fadeIn" data-wow-delay="1.2s"><a href="#" class="fa fa-behance"></a></li>
-					<li class="wow fadeIn" data-wow-delay="1.6s"><a href="#" class="fa fa-github"></a></li>
+			<div class="col-md-3 col-sm-3">
+				<h2 class="wow bounceIn">CÓDIGO</h2>
+				<ul class="icons">
+					<li class="wow fadeIn" data-wow-delay="0.4s"><a href="https://colab.research.google.com/drive/1x6LXcpl-Hb4uu2SkmD2obpRR7C8DVjbE?usp=sharing" class="fa fa-file-code-o"></a></li>
+					<li class="wow fadeIn" data-wow-delay="0.8s"><a href="https://github.com/umaanaflavia/umaanaflavia.github.io" class="fa fa-github"></a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 col-sm-4 newsletter">
-				<h2 class="wow bounceIn">SUBSCRIBE NOW</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam n.</p>
-				<div class="input-group">
-                    <form action="#" method="get" id="subscribe">
-                        <input name="email" type="email" placeholder="Your Email" class="form-control">
-                        <input name="submit" type="submit" class="form-control" id="submit" value="submit">
-                    </form>
-				</div>
+				<h2 class="wow bounceIn">DADOS</h2>
+				<a class="btn btn-primary" style="margin: 0;" href="https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results" role="button" target="_blank">Baixar Base de Dados</a>
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- copyright section -->
-<div class="copyright">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright &copy; 2018 Company Name 
-                | Design: <a rel="nofollow" href="https://templatemo.com">templatemo</a> 
-                | Images by <a rel="nofollow" href="https://pixabay.com">Pixabay</a></p>
-			</div>
-			
-		</div>
-	</div>
-</div>
+<!-- Modal -->
+<div id="myModal" class="modal">
+	<span class="close">&times;</span>
+	<img class="modal-content" id="modalImage" src="images\radar-feio.png">
+</div>  
 
 <!-- javascript js -->	
 <script src="js/jquery.js"></script>
@@ -227,6 +193,20 @@
 <script src="js/init.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+	var modal = document.getElementById("myModal");
+	var modalImg = document.getElementById("modalImage");
+	
+	document.getElementById("openModalLink").addEventListener("click", function(event) {
+		event.preventDefault();
+		modal.style.display = "block";
+		modalImg.src = "images/radar-feio.png";
+	});
+	
+	document.getElementsByClassName("close")[0].addEventListener("click", function() {
+		modal.style.display = "none";
+	});
+</script>	
 
 </body>
 </html>
